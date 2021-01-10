@@ -21,3 +21,26 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var dolcescelto = "7";
+
+
+switch (dolcescelto) {
+    case "1":
+        console.log("Hai scelto il tiramisu");
+        break;
+        case "2":
+        console.log("Hai scelto la torta della nonna");
+        break;
+        case "3":
+            console.log("Hai scelto la cheesecake con la nutella");
+            break;
+            case "4":
+                console.log("Hai scelto la macedonia");
+                break;
+
+    default:
+        console.log("Dolce non disponibile");
+        break;
+}
